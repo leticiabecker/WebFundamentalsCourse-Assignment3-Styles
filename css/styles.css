@@ -1,0 +1,104 @@
+/* Body */
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #181F3C;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Poster container */
+div#poster {
+	background-image: url(../images/poster-bg.jpg);
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 1806px;
+	position: relative;
+}
+
+/* Header */
+header#movie-title {
+/*	position: absolute;
+	top: 50px;*/
+	width: 1280px;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Author */
+p#author {
+	font-size: 150%;
+	padding-top: 40px;
+}
+
+/* Names */
+.names {
+	font-size: 150%;
+}
+
+/* Movie Subtitle */
+h2#movie-subtitle {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 250%;
+	text-align: left;
+	position: absolute;
+	top: 620px;
+	left: 150px;
+}
+
+/* Cannes Festival Aside */
+aside {
+	float: right;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+	position: absolute;
+	top: 660px;
+	right: 180px;
+}
+
+span#festival {
+	font-size: 60%;
+	position: relative;
+	top: -10px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Coming soon alert */
+section#coming-soon {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #EAEFEB;
+	font-size: 170%;
+	position: absolute;
+	top: 1500px;
+	left: 550px;
+}
+
+/* Production Info */
+footer {
+	position: absolute;
+	top: 1600px;
+	padding: 0 40px;
+}
+
+section#production-info {
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+}
+
